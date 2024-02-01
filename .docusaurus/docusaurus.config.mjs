@@ -11,6 +11,7 @@ export default {
   "baseUrl": "/",
   "organizationName": "MPH-Digital",
   "projectName": "mph-digital.github.io",
+  "deploymentBranch": "main",
   "trailingSlash": true,
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
