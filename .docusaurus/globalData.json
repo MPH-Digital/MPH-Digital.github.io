@@ -13,62 +13,62 @@
             {
               "id": "intro",
               "path": "/docs/intro",
-              "sidebar": "techSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "technical-docs/congratulations",
-              "path": "/docs/technical-docs/congratulations",
-              "sidebar": "techSidebar"
+              "id": "tutorial-basics/congratulations",
+              "path": "/docs/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "technical-docs/create-a-blog-post",
-              "path": "/docs/technical-docs/create-a-blog-post",
-              "sidebar": "techSidebar"
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "technical-docs/create-a-document",
-              "path": "/docs/technical-docs/create-a-document",
-              "sidebar": "techSidebar"
+              "id": "tutorial-basics/create-a-document",
+              "path": "/docs/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "technical-docs/create-a-page",
-              "path": "/docs/technical-docs/create-a-page",
-              "sidebar": "techSidebar"
+              "id": "tutorial-basics/create-a-page",
+              "path": "/docs/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "technical-docs/deploy-your-site",
-              "path": "/docs/technical-docs/deploy-your-site",
-              "sidebar": "techSidebar"
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "technical-docs/markdown-features",
-              "path": "/docs/technical-docs/markdown-features",
-              "sidebar": "techSidebar"
+              "id": "tutorial-basics/markdown-features",
+              "path": "/docs/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-extras/manage-docs-versions",
               "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "techSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-extras/translate-your-site",
               "path": "/docs/tutorial-extras/translate-your-site",
-              "sidebar": "techSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/environments",
-              "path": "/docs/category/environments",
-              "sidebar": "techSidebar"
+              "id": "/category/tutorial---basics",
+              "path": "/docs/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/tutorial---extras",
               "path": "/docs/category/tutorial---extras",
-              "sidebar": "techSidebar"
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "techSidebar": {
+            "tutorialSidebar": {
               "link": {
                 "path": "/docs/intro",
                 "label": "intro"

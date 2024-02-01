@@ -8,64 +8,64 @@
   "className": "docs-version-current",
   "isLast": true,
   "docsSidebars": {
-    "techSidebar": [
+    "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Technical Documentation",
+        "label": "Tutorial Intro",
         "href": "/docs/intro",
         "docId": "intro",
         "unlisted": false
       },
       {
         "type": "category",
-        "label": "Environments",
+        "label": "Tutorial - Basics",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "Create a Page",
-            "href": "/docs/technical-docs/create-a-page",
-            "docId": "technical-docs/create-a-page",
+            "href": "/docs/tutorial-basics/create-a-page",
+            "docId": "tutorial-basics/create-a-page",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Create a Document",
-            "href": "/docs/technical-docs/create-a-document",
-            "docId": "technical-docs/create-a-document",
+            "href": "/docs/tutorial-basics/create-a-document",
+            "docId": "tutorial-basics/create-a-document",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Create a Blog Post",
-            "href": "/docs/technical-docs/create-a-blog-post",
-            "docId": "technical-docs/create-a-blog-post",
+            "href": "/docs/tutorial-basics/create-a-blog-post",
+            "docId": "tutorial-basics/create-a-blog-post",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Markdown Features",
-            "href": "/docs/technical-docs/markdown-features",
-            "docId": "technical-docs/markdown-features",
+            "href": "/docs/tutorial-basics/markdown-features",
+            "docId": "tutorial-basics/markdown-features",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Deploy your site",
-            "href": "/docs/technical-docs/deploy-your-site",
-            "docId": "technical-docs/deploy-your-site",
+            "href": "/docs/tutorial-basics/deploy-your-site",
+            "docId": "tutorial-basics/deploy-your-site",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Congratulations!",
-            "href": "/docs/technical-docs/congratulations",
-            "docId": "technical-docs/congratulations",
+            "href": "/docs/tutorial-basics/congratulations",
+            "docId": "tutorial-basics/congratulations",
             "unlisted": false
           }
         ],
-        "href": "/docs/category/environments"
+        "href": "/docs/category/tutorial---basics"
       },
       {
         "type": "category",
@@ -95,57 +95,57 @@
   "docs": {
     "intro": {
       "id": "intro",
-      "title": "Technical Documentation",
+      "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
-      "sidebar": "techSidebar"
+      "sidebar": "tutorialSidebar"
     },
-    "technical-docs/congratulations": {
-      "id": "technical-docs/congratulations",
+    "tutorial-basics/congratulations": {
+      "id": "tutorial-basics/congratulations",
       "title": "Congratulations!",
       "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "techSidebar"
+      "sidebar": "tutorialSidebar"
     },
-    "technical-docs/create-a-blog-post": {
-      "id": "technical-docs/create-a-blog-post",
+    "tutorial-basics/create-a-blog-post": {
+      "id": "tutorial-basics/create-a-blog-post",
       "title": "Create a Blog Post",
       "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-      "sidebar": "techSidebar"
+      "sidebar": "tutorialSidebar"
     },
-    "technical-docs/create-a-document": {
-      "id": "technical-docs/create-a-document",
+    "tutorial-basics/create-a-document": {
+      "id": "tutorial-basics/create-a-document",
       "title": "Create a Document",
       "description": "Documents are groups of pages connected through:",
-      "sidebar": "techSidebar"
+      "sidebar": "tutorialSidebar"
     },
-    "technical-docs/create-a-page": {
-      "id": "technical-docs/create-a-page",
+    "tutorial-basics/create-a-page": {
+      "id": "tutorial-basics/create-a-page",
       "title": "Create a Page",
       "description": "Add Markdown or React files to src/pages to create a standalone page:",
-      "sidebar": "techSidebar"
+      "sidebar": "tutorialSidebar"
     },
-    "technical-docs/deploy-your-site": {
-      "id": "technical-docs/deploy-your-site",
+    "tutorial-basics/deploy-your-site": {
+      "id": "tutorial-basics/deploy-your-site",
       "title": "Deploy your site",
       "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-      "sidebar": "techSidebar"
+      "sidebar": "tutorialSidebar"
     },
-    "technical-docs/markdown-features": {
-      "id": "technical-docs/markdown-features",
+    "tutorial-basics/markdown-features": {
+      "id": "tutorial-basics/markdown-features",
       "title": "Markdown Features",
       "description": "Docusaurus supports Markdown and a few additional features.",
-      "sidebar": "techSidebar"
+      "sidebar": "tutorialSidebar"
     },
     "tutorial-extras/manage-docs-versions": {
       "id": "tutorial-extras/manage-docs-versions",
       "title": "Manage Docs Versions",
       "description": "Docusaurus can manage multiple versions of your docs.",
-      "sidebar": "techSidebar"
+      "sidebar": "tutorialSidebar"
     },
     "tutorial-extras/translate-your-site": {
       "id": "tutorial-extras/translate-your-site",
       "title": "Translate your site",
       "description": "Let's translate docs/intro.md to French.",
-      "sidebar": "techSidebar"
+      "sidebar": "tutorialSidebar"
     }
   }
 }
