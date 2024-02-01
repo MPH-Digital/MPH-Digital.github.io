@@ -1,0 +1,26 @@
+{
+  "id": "technical-docs/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/technical-docs/congratulations.md",
+  "sourceDirName": "technical-docs",
+  "slug": "/technical-docs/congratulations",
+  "permalink": "/docs/technical-docs/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "techSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/docs/technical-docs/deploy-your-site"
+  },
+  "next": {
+    "title": "Tutorial - Extras",
+    "permalink": "/docs/category/tutorial---extras"
+  }
+}

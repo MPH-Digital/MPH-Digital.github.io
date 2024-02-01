@@ -8,15 +8,17 @@ const config: Config = {
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: 'https://docs.mph.digital',
+  url: 'https://mph-digital.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'mphdigital', // Usually your GitHub org/user name.
-  projectName: 'mphdigital', // Usually your repo name.
+  organizationName: 'mph-digital', // Usually your GitHub org/user name.
+  projectName: 'mph-digital.github.io', // Usually your repo name.
+  deploymentBranch: 'main',
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

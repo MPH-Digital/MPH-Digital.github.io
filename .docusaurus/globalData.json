@@ -1,0 +1,83 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "techSidebar"
+            },
+            {
+              "id": "technical-docs/congratulations",
+              "path": "/docs/technical-docs/congratulations",
+              "sidebar": "techSidebar"
+            },
+            {
+              "id": "technical-docs/create-a-blog-post",
+              "path": "/docs/technical-docs/create-a-blog-post",
+              "sidebar": "techSidebar"
+            },
+            {
+              "id": "technical-docs/create-a-document",
+              "path": "/docs/technical-docs/create-a-document",
+              "sidebar": "techSidebar"
+            },
+            {
+              "id": "technical-docs/create-a-page",
+              "path": "/docs/technical-docs/create-a-page",
+              "sidebar": "techSidebar"
+            },
+            {
+              "id": "technical-docs/deploy-your-site",
+              "path": "/docs/technical-docs/deploy-your-site",
+              "sidebar": "techSidebar"
+            },
+            {
+              "id": "technical-docs/markdown-features",
+              "path": "/docs/technical-docs/markdown-features",
+              "sidebar": "techSidebar"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions",
+              "sidebar": "techSidebar"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site",
+              "sidebar": "techSidebar"
+            },
+            {
+              "id": "/category/environments",
+              "path": "/docs/category/environments",
+              "sidebar": "techSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/docs/category/tutorial---extras",
+              "sidebar": "techSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "techSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

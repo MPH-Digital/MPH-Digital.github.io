@@ -1,0 +1,16 @@
+{
+  "title": "Environments",
+  "description": "Environment Information",
+  "slug": "/category/environments",
+  "permalink": "/docs/category/environments",
+  "navigation": {
+    "previous": {
+      "title": "Technical Documentation",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Create a Page",
+      "permalink": "/docs/technical-docs/create-a-page"
+    }
+  }
+}
