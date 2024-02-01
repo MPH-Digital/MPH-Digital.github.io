@@ -1,6 +1,6 @@
-# Website
+# MPH Digital Docs
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This is the online documentation site for MPH Digital.
 
 ### Installation
 

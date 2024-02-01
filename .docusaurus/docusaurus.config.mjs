@@ -12,7 +12,8 @@ export default {
   "organizationName": "MPH-Digital",
   "projectName": "mph-digital.github.io",
   "deploymentBranch": "main",
-  "trailingSlash": true,
+  "trailingSlash": false,
+  "noIndex": true,
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -350,7 +351,6 @@ export default {
   "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
-  "noIndex": false,
   "markdown": {
     "format": "mdx",
     "mermaid": false,
