@@ -22,6 +22,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "MPH-Digital", // Usually your GitHub org/user name.
   projectName: "mph-digital.github.io", // Usually your repo name.
+  deploymentBranch: "main",
   trailingSlash: true,
 
   onBrokenLinks: "throw",
