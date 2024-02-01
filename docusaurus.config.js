@@ -14,7 +14,7 @@ const config = {
 
   // Set the production url of your site here
   url: "https://docs.mph.digital",
-  // Set the /<baseUrl>/ pathname under which your site is served
+  // Set the /<baseUrl>/ pathname under which your site is servednpm
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/build/",
 
@@ -23,7 +23,7 @@ const config = {
   organizationName: "MPH-Digital", // Usually your GitHub org/user name.
   projectName: "mph-digital.github.io", // Usually your repo name.
   deploymentBranch: "main",
-  trailingSlash: false,
+  trailingSlash: true,
   noIndex: true,
 
   onBrokenLinks: "throw",
