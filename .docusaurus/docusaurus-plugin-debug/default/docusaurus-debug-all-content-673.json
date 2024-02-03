@@ -13,9 +13,9 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/heathbodell/Documents/Work/MPH.DIGITAL/docs/docs.mph.digital/MPH-Digital.github.io/sidebars.js",
-          "contentPath": "/Users/heathbodell/Documents/Work/MPH.DIGITAL/docs/docs.mph.digital/MPH-Digital.github.io/docs",
-          "contentPathLocalized": "/Users/heathbodell/Documents/Work/MPH.DIGITAL/docs/docs.mph.digital/MPH-Digital.github.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/heathbodell/Documents/Work/MPH.DIGITAL/mph-digital.github.io/sidebars.js",
+          "contentPath": "/Users/heathbodell/Documents/Work/MPH.DIGITAL/mph-digital.github.io/docs",
+          "contentPathLocalized": "/Users/heathbodell/Documents/Work/MPH.DIGITAL/mph-digital.github.io/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "id": "intro",
