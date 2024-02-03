@@ -34,9 +34,9 @@ export default function Home() {
   return (
     <Layout title={`${siteConfig.title} Docs`} description="MPH Digital Docs">
       <HomepageHeader />
-      <main>
+      {/* <main>
         <HomepageFeatures />
-      </main>
+      </main> */}
     </Layout>
   );
 }

@@ -10,8 +10,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "MPH Digital Docs",
-  tagline: "MPH Digital Documentation",
+  title: "MPH Digital Documentation",
+  tagline: "Platform documentation and team resources",
   favicon: "img/favicon.png",
 
   // Set the production url of your site here

@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "MPH Digital Docs",
-  "tagline": "MPH Digital Documentation",
+  "title": "MPH Digital Documentation",
+  "tagline": "Platform documentation and team resources",
   "favicon": "img/favicon.png",
   "url": "https://docs.mph.digital",
   "baseUrl": "/",

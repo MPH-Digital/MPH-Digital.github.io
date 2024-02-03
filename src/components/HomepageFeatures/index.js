@@ -1,35 +1,48 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
+import Link from "@docusaurus/Link";
 import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "Easy to Use",
+    title: "Technical Documentation",
     //Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <Link
+          className="button button--secondary button--lg"
+          to="/technical-docs/intro"
+        >
+          View the docs
+        </Link>
       </>
     ),
   },
   {
-    title: "Focus on What Matters",
+    title: "Buisness Documentation",
     // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <Link
+          className="button button--secondary button--lg"
+          to="/business-docs/intro"
+        >
+          View the docs
+        </Link>
       </>
     ),
   },
   {
-    title: "Powered by React",
+    title: "Team Resources",
     // Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <Link
+          className="button button--secondary button--lg"
+          to="/technical-docs/intro"
+        >
+          View the docs
+        </Link>
       </>
     ),
   },
