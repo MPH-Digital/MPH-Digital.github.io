@@ -26,7 +26,8 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build website
-        run: yarn build --out-dir ./build/${{ secrets.PASSWORD }}
+        # run: yarn build --out-dir ./build/${{ secrets.PASSWORD }}
+        run: yarn build
       - name: 🔒 Add Locking System
         run: cp -r lockscreen/* ./build/
       # Popular action to deploy to GitHub Pages:
