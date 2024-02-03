@@ -35,7 +35,7 @@ jobs:
           node-version: "18"
       - uses: webfactory/ssh-agent@v0.5.0
         with:
-          ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
+          ssh-private-key: ${{ secrets.GITHUB_TOKEN }}
       - name: 🔑 Setup folder key
         run: |
           touch .env
