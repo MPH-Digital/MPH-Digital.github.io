@@ -19,11 +19,6 @@
               "id": "technical-docs/intro",
               "path": "/technical-docs/intro",
               "sidebar": "techDocsSidebar"
-            },
-            {
-              "id": "technical-docs/markdown-features",
-              "path": "/technical-docs/markdown-features",
-              "sidebar": "techDocsSidebar"
             }
           ],
           "draftIds": [],

@@ -15,13 +15,6 @@
         "href": "/technical-docs/intro",
         "docId": "technical-docs/intro",
         "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Markdown Features",
-        "href": "/technical-docs/markdown-features",
-        "docId": "technical-docs/markdown-features",
-        "unlisted": false
       }
     ],
     "busDocsSidebar": [
@@ -44,12 +37,6 @@
     "technical-docs/intro": {
       "id": "technical-docs/intro",
       "title": "Technical Documentation",
-      "description": "",
-      "sidebar": "techDocsSidebar"
-    },
-    "technical-docs/markdown-features": {
-      "id": "technical-docs/markdown-features",
-      "title": "Markdown Features",
       "description": "",
       "sidebar": "techDocsSidebar"
     }
