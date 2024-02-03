@@ -24,7 +24,7 @@ jobs:
           else
           npm i
           fi
-          yarn build --out-dir build/${{ secrets.GITHUB_TOKEN }}
+          yarn build --out-dir build/${{ secrets.PASSWORD }}
   gh-release:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
@@ -35,7 +35,7 @@ jobs:
           node-version: "18"
       - uses: webfactory/ssh-agent@v0.5.0
         with:
-          ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
+          ssh-private-key: ${{ secrets.GITHUB_TOKEN }}
       - name: 🔑 Setup folder key
         run: |
           touch .env
