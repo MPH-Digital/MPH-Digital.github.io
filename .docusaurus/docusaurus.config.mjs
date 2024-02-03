@@ -77,18 +77,8 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Technical Docs",
-              "to": "/docs/category/technical-docs"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2024 MPH Digital."
+      "copyright": "Copyright © 2024 MPH Digital.",
+      "links": []
     },
     "prism": {
       "theme": {

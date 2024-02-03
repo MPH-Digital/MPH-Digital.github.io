@@ -107,17 +107,17 @@ const config = {
       },
       footer: {
         style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Technical Docs",
-                to: "/docs/category/technical-docs",
-              },
-            ],
-          },
-        ],
+        // links: [
+        //   {
+        //     title: "Docs",
+        //     items: [
+        //       {
+        //         label: "Technical Docs",
+        //         to: "/docs/category/technical-docs",
+        //       },
+        //     ],
+        //   },
+        // ],
         copyright: `Copyright © ${new Date().getFullYear()} MPH Digital.`,
       },
       prism: {
