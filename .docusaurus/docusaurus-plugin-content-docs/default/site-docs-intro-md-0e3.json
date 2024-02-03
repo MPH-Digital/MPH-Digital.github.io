@@ -1,22 +1,21 @@
 {
   "id": "intro",
-  "title": "Tutorial Intro",
+  "title": "MPH Digital Docs",
   "description": "Let's discover Docusaurus in less than 5 minutes.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
-  "slug": "/intro",
-  "permalink": "/docs/intro",
+  "slug": "/",
+  "permalink": "/",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1
+    "slug": "/"
   },
-  "sidebar": "techDocsSidebar",
-  "next": {
-    "title": "Technical Docs",
-    "permalink": "/docs/category/technical-docs"
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Markdown Features",
+    "permalink": "/technical-docs/markdown-features"
   }
 }

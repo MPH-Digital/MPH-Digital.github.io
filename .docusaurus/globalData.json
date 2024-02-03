@@ -1,53 +1,28 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
-          "mainDocId": "intro",
+          "path": "/",
+          "mainDocId": "technical-docs/intro",
           "docs": [
             {
-              "id": "intro",
-              "path": "/docs/intro",
+              "id": "business-docs/intro",
+              "path": "/business-docs/intro",
+              "sidebar": "busDocsSidebar"
+            },
+            {
+              "id": "technical-docs/intro",
+              "path": "/technical-docs/intro",
               "sidebar": "techDocsSidebar"
             },
             {
-              "id": "technical_docs/congratulations",
-              "path": "/docs/technical_docs/congratulations",
-              "sidebar": "techDocsSidebar"
-            },
-            {
-              "id": "technical_docs/create-a-blog-post",
-              "path": "/docs/technical_docs/create-a-blog-post",
-              "sidebar": "techDocsSidebar"
-            },
-            {
-              "id": "technical_docs/create-a-document",
-              "path": "/docs/technical_docs/create-a-document",
-              "sidebar": "techDocsSidebar"
-            },
-            {
-              "id": "technical_docs/create-a-page",
-              "path": "/docs/technical_docs/create-a-page",
-              "sidebar": "techDocsSidebar"
-            },
-            {
-              "id": "technical_docs/deploy-your-site",
-              "path": "/docs/technical_docs/deploy-your-site",
-              "sidebar": "techDocsSidebar"
-            },
-            {
-              "id": "technical_docs/markdown-features",
-              "path": "/docs/technical_docs/markdown-features",
-              "sidebar": "techDocsSidebar"
-            },
-            {
-              "id": "/category/technical-docs",
-              "path": "/docs/category/technical-docs",
+              "id": "technical-docs/markdown-features",
+              "path": "/technical-docs/markdown-features",
               "sidebar": "techDocsSidebar"
             }
           ],
@@ -55,8 +30,14 @@
           "sidebars": {
             "techDocsSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/technical-docs/intro",
+                "label": "technical-docs/intro"
+              }
+            },
+            "busDocsSidebar": {
+              "link": {
+                "path": "/business-docs/intro",
+                "label": "business-docs/intro"
               }
             }
           }

@@ -11,105 +11,46 @@
     "techDocsSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
-        "href": "/docs/intro",
-        "docId": "intro",
+        "label": "Technical Documentation",
+        "href": "/technical-docs/intro",
+        "docId": "technical-docs/intro",
         "unlisted": false
       },
       {
-        "type": "category",
-        "label": "Technical Docs",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/technical_docs/create-a-page",
-            "docId": "technical_docs/create-a-page",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/technical_docs/create-a-document",
-            "docId": "technical_docs/create-a-document",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/technical_docs/create-a-blog-post",
-            "docId": "technical_docs/create-a-blog-post",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/technical_docs/markdown-features",
-            "docId": "technical_docs/markdown-features",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/technical_docs/deploy-your-site",
-            "docId": "technical_docs/deploy-your-site",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/technical_docs/congratulations",
-            "docId": "technical_docs/congratulations",
-            "unlisted": false
-          }
-        ],
-        "href": "/docs/category/technical-docs"
+        "type": "link",
+        "label": "Markdown Features",
+        "href": "/technical-docs/markdown-features",
+        "docId": "technical-docs/markdown-features",
+        "unlisted": false
+      }
+    ],
+    "busDocsSidebar": [
+      {
+        "type": "link",
+        "label": "Business Documentation",
+        "href": "/business-docs/intro",
+        "docId": "business-docs/intro",
+        "unlisted": false
       }
     ]
   },
   "docs": {
-    "intro": {
-      "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
+    "business-docs/intro": {
+      "id": "business-docs/intro",
+      "title": "Business Documentation",
+      "description": "",
+      "sidebar": "busDocsSidebar"
+    },
+    "technical-docs/intro": {
+      "id": "technical-docs/intro",
+      "title": "Technical Documentation",
+      "description": "",
       "sidebar": "techDocsSidebar"
     },
-    "technical_docs/congratulations": {
-      "id": "technical_docs/congratulations",
-      "title": "Congratulations!",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "techDocsSidebar"
-    },
-    "technical_docs/create-a-blog-post": {
-      "id": "technical_docs/create-a-blog-post",
-      "title": "Create a Blog Post",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-      "sidebar": "techDocsSidebar"
-    },
-    "technical_docs/create-a-document": {
-      "id": "technical_docs/create-a-document",
-      "title": "Create a Document",
-      "description": "Documents are groups of pages connected through:",
-      "sidebar": "techDocsSidebar"
-    },
-    "technical_docs/create-a-page": {
-      "id": "technical_docs/create-a-page",
-      "title": "Create a Page",
-      "description": "Add Markdown or React files to src/pages to create a standalone page:",
-      "sidebar": "techDocsSidebar"
-    },
-    "technical_docs/deploy-your-site": {
-      "id": "technical_docs/deploy-your-site",
-      "title": "Deploy your site",
-      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-      "sidebar": "techDocsSidebar"
-    },
-    "technical_docs/markdown-features": {
-      "id": "technical_docs/markdown-features",
+    "technical-docs/markdown-features": {
+      "id": "technical-docs/markdown-features",
       "title": "Markdown Features",
-      "description": "Docusaurus supports Markdown and a few additional features.",
+      "description": "",
       "sidebar": "techDocsSidebar"
     }
   }

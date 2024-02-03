@@ -6,10 +6,10 @@
 export default {
   "title": "MPH Digital Docs",
   "tagline": "MPH Digital Documentation",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/favicon.png",
   "url": "https://docs.mph.digital",
   "baseUrl": "/",
-  "organizationName": "MPH-Digital",
+  "organizationName": "MPH Digital",
   "projectName": "mph-digital.github.io",
   "deploymentBranch": "main",
   "trailingSlash": false,
@@ -29,8 +29,10 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.js"
+          "sidebarPath": "./sidebars.js",
+          "routeBasePath": "/"
         },
+        "blog": false,
         "theme": {
           "customCss": "./src/css/custom.css"
         }
@@ -41,7 +43,6 @@ export default {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
       "style": "dark",
-      "title": "mph.digital Docs",
       "logo": {
         "alt": "MPH Digital",
         "src": "img/logo.png"
@@ -51,7 +52,13 @@ export default {
           "type": "docSidebar",
           "sidebarId": "techDocsSidebar",
           "position": "left",
-          "label": "Technical Docs"
+          "label": "Technical Documentation"
+        },
+        {
+          "type": "docSidebar",
+          "sidebarId": "busDocsSidebar",
+          "position": "left",
+          "label": "Business Documentation"
         },
         {
           "href": "https://github.com/MPH-Digital",
@@ -60,6 +67,13 @@ export default {
         }
       ],
       "hideOnScroll": false
+    },
+    "docs": {
+      "sidebar": {
+        "hideable": true,
+        "autoCollapseCategories": true
+      },
+      "versionPersistence": "localStorage"
     },
     "footer": {
       "style": "dark",
@@ -72,166 +86,24 @@ export default {
               "to": "/docs/category/technical-docs"
             }
           ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
         }
       ],
-      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024 MPH Digital."
     },
     "prism": {
       "theme": {
         "plain": {
-          "color": "#393A34",
-          "backgroundColor": "#f6f8fa"
+          "color": "#f8f8f2",
+          "backgroundColor": "#272822"
         },
         "styles": [
           {
             "types": [
-              "comment",
-              "prolog",
-              "doctype",
-              "cdata"
+              "changed"
             ],
             "style": {
-              "color": "#999988",
+              "color": "rgb(162, 191, 252)",
               "fontStyle": "italic"
-            }
-          },
-          {
-            "types": [
-              "namespace"
-            ],
-            "style": {
-              "opacity": 0.7
-            }
-          },
-          {
-            "types": [
-              "string",
-              "attr-value"
-            ],
-            "style": {
-              "color": "#e3116c"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "operator"
-            ],
-            "style": {
-              "color": "#393A34"
-            }
-          },
-          {
-            "types": [
-              "entity",
-              "url",
-              "symbol",
-              "number",
-              "boolean",
-              "variable",
-              "constant",
-              "property",
-              "regex",
-              "inserted"
-            ],
-            "style": {
-              "color": "#36acaa"
-            }
-          },
-          {
-            "types": [
-              "atrule",
-              "keyword",
-              "attr-name",
-              "selector"
-            ],
-            "style": {
-              "color": "#00a4db"
-            }
-          },
-          {
-            "types": [
-              "function",
-              "deleted",
-              "tag"
-            ],
-            "style": {
-              "color": "#d73a49"
-            }
-          },
-          {
-            "types": [
-              "function-variable"
-            ],
-            "style": {
-              "color": "#6f42c1"
-            }
-          },
-          {
-            "types": [
-              "tag",
-              "selector",
-              "keyword"
-            ],
-            "style": {
-              "color": "#00009f"
-            }
-          }
-        ]
-      },
-      "darkTheme": {
-        "plain": {
-          "color": "#F8F8F2",
-          "backgroundColor": "#282A36"
-        },
-        "styles": [
-          {
-            "types": [
-              "prolog",
-              "constant",
-              "builtin"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)"
-            }
-          },
-          {
-            "types": [
-              "inserted",
-              "function"
-            ],
-            "style": {
-              "color": "rgb(80, 250, 123)"
             }
           },
           {
@@ -239,44 +111,16 @@ export default {
               "deleted"
             ],
             "style": {
-              "color": "rgb(255, 85, 85)"
+              "color": "#f92672",
+              "fontStyle": "italic"
             }
           },
           {
             "types": [
-              "changed"
+              "inserted"
             ],
             "style": {
-              "color": "rgb(255, 184, 108)"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "symbol"
-            ],
-            "style": {
-              "color": "rgb(248, 248, 242)"
-            }
-          },
-          {
-            "types": [
-              "string",
-              "char",
-              "tag",
-              "selector"
-            ],
-            "style": {
-              "color": "rgb(255, 121, 198)"
-            }
-          },
-          {
-            "types": [
-              "keyword",
-              "variable"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)",
+              "color": "rgb(173, 219, 103)",
               "fontStyle": "italic"
             }
           },
@@ -285,7 +129,99 @@ export default {
               "comment"
             ],
             "style": {
-              "color": "rgb(98, 114, 164)"
+              "color": "#8292a2",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "string",
+              "url"
+            ],
+            "style": {
+              "color": "#a6e22e"
+            }
+          },
+          {
+            "types": [
+              "variable"
+            ],
+            "style": {
+              "color": "#f8f8f2"
+            }
+          },
+          {
+            "types": [
+              "number"
+            ],
+            "style": {
+              "color": "#ae81ff"
+            }
+          },
+          {
+            "types": [
+              "builtin",
+              "char",
+              "constant",
+              "function",
+              "class-name"
+            ],
+            "style": {
+              "color": "#e6db74"
+            }
+          },
+          {
+            "types": [
+              "punctuation"
+            ],
+            "style": {
+              "color": "#f8f8f2"
+            }
+          },
+          {
+            "types": [
+              "selector",
+              "doctype"
+            ],
+            "style": {
+              "color": "#a6e22e",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "tag",
+              "operator",
+              "keyword"
+            ],
+            "style": {
+              "color": "#66d9ef"
+            }
+          },
+          {
+            "types": [
+              "boolean"
+            ],
+            "style": {
+              "color": "#ae81ff"
+            }
+          },
+          {
+            "types": [
+              "namespace"
+            ],
+            "style": {
+              "color": "rgb(178, 204, 214)",
+              "opacity": 0.7
+            }
+          },
+          {
+            "types": [
+              "tag",
+              "property"
+            ],
+            "style": {
+              "color": "#f92672"
             }
           },
           {
@@ -293,7 +229,182 @@ export default {
               "attr-name"
             ],
             "style": {
-              "color": "rgb(241, 250, 140)"
+              "color": "#a6e22e !important"
+            }
+          },
+          {
+            "types": [
+              "doctype"
+            ],
+            "style": {
+              "color": "#8292a2"
+            }
+          },
+          {
+            "types": [
+              "rule"
+            ],
+            "style": {
+              "color": "#e6db74"
+            }
+          }
+        ]
+      },
+      "darkTheme": {
+        "plain": {
+          "color": "#f8f8f2",
+          "backgroundColor": "#272822"
+        },
+        "styles": [
+          {
+            "types": [
+              "changed"
+            ],
+            "style": {
+              "color": "rgb(162, 191, 252)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "deleted"
+            ],
+            "style": {
+              "color": "#f92672",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "inserted"
+            ],
+            "style": {
+              "color": "rgb(173, 219, 103)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "comment"
+            ],
+            "style": {
+              "color": "#8292a2",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "string",
+              "url"
+            ],
+            "style": {
+              "color": "#a6e22e"
+            }
+          },
+          {
+            "types": [
+              "variable"
+            ],
+            "style": {
+              "color": "#f8f8f2"
+            }
+          },
+          {
+            "types": [
+              "number"
+            ],
+            "style": {
+              "color": "#ae81ff"
+            }
+          },
+          {
+            "types": [
+              "builtin",
+              "char",
+              "constant",
+              "function",
+              "class-name"
+            ],
+            "style": {
+              "color": "#e6db74"
+            }
+          },
+          {
+            "types": [
+              "punctuation"
+            ],
+            "style": {
+              "color": "#f8f8f2"
+            }
+          },
+          {
+            "types": [
+              "selector",
+              "doctype"
+            ],
+            "style": {
+              "color": "#a6e22e",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "tag",
+              "operator",
+              "keyword"
+            ],
+            "style": {
+              "color": "#66d9ef"
+            }
+          },
+          {
+            "types": [
+              "boolean"
+            ],
+            "style": {
+              "color": "#ae81ff"
+            }
+          },
+          {
+            "types": [
+              "namespace"
+            ],
+            "style": {
+              "color": "rgb(178, 204, 214)",
+              "opacity": 0.7
+            }
+          },
+          {
+            "types": [
+              "tag",
+              "property"
+            ],
+            "style": {
+              "color": "#f92672"
+            }
+          },
+          {
+            "types": [
+              "attr-name"
+            ],
+            "style": {
+              "color": "#a6e22e !important"
+            }
+          },
+          {
+            "types": [
+              "doctype"
+            ],
+            "style": {
+              "color": "#8292a2"
+            }
+          },
+          {
+            "types": [
+              "rule"
+            ],
+            "style": {
+              "color": "#e6db74"
             }
           }
         ]
@@ -314,13 +425,6 @@ export default {
       "defaultMode": "light",
       "disableSwitch": false,
       "respectPrefersColorScheme": false
-    },
-    "docs": {
-      "versionPersistence": "localStorage",
-      "sidebar": {
-        "hideable": false,
-        "autoCollapseCategories": false
-      }
     },
     "metadata": [],
     "tableOfContents": {
