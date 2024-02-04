@@ -1,8 +1,8 @@
 {
-  "label": "Business Documentation",
+  "label": "Design Documentation",
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Business Documenation"
+    "description": "Design Documenation"
   }
 }

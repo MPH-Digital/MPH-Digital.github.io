@@ -1,0 +1,15 @@
+---
+sidebar_position: 2
+id: plugin-process
+---
+import Highlight from '@site/src/components/Highlight';
+
+# Plugin Development Process
+
+1. All development is done on cloned <Highlight>development plugin</Highlight> assigned to the _Developer_ and attached to a bubble sandbox branch
+2. _Developer_ notifies _Dev Lead_ that a function is ready to review
+3. _Dev Lead_ tests and confirms working function and approves code
+4. _Dev Lead_ migrates function from <Highlight>development plugin</Highlight> to <Highlight>Main Plugin</Highlight> and creates a new plugin production release
+5. _Team_ and _Business_ tests function on a staging branch and approves functionality
+6. _Dev Lead_ updates <Highlight>development environment</Highlight> to use most recent version of the plugin and pushes to <Highlight>Production</Highlight>
+7. _Dev Lead_ pushes to Sub Apps

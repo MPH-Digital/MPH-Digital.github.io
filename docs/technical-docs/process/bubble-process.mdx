@@ -1,0 +1,27 @@
+---
+sidebar_position: 1
+id: bubble-process
+---
+import Highlight from '@site/src/components/Highlight';
+
+# Bubble General Development Process
+
+1. All development is done on Main development branch
+2. Once dev is ready for testing, a request is entered into the Slack channel [**#staging-requests**](https://trackkingworkspace.slack.com/archives/C05JA4EF0F6)
+3. Once staging request is approved, _Dev Lead_ creates a Save Point in bubble and adds it to the [**Save Points table**](https://www.notion.so/1e913710276147f09aceb4a8267fe5ee?pvs=21)
+4. _Dev Lead_ pushes changes to a staging branch for _Business_ review
+5. _Dev Lead_ confirms push in [**#staging-requests**](https://trackkingworkspace.slack.com/archives/C05JA4EF0F6) Slack channel
+6. Related tasks are moved from <Highlight>Development</Highlight> to <Highlight>Staging/Testing</Highlight>
+7. _Team_ tests and runs full QA cycle on staging branch
+8. Once _Team_ confirms successful QA testing, related tasks are moved from <Highlight>Staging/Testing</Highlight> to In <Highlight>Review/Approval</Highlight>
+9. Tasks are added to Slack channel [**#task-approval-signoff**](https://trackkingworkspace.slack.com/archives/C053FBSB8HG) for _Business_ to be notified they are ready for review
+10. Unapproved tasks are updated with feedback notes and moved from <Highlight>Review/Approval</Highlight> to <Highlight>Development</Highlight>
+11. Approved tasks are updated with any feedback and <Highlight>Business Approval checkbox</Highlight> is checked in task properties
+12. If there are tasks checked as <Highlight>Business Approved</Highlight>, _Dev Lead_ creates a Save Point in bubble and adds it to the [**Save Points table**](https://www.notion.so/1e913710276147f09aceb4a8267fe5ee?pvs=21)
+13. _Dev Lead_ pushes changes to the [**Production environment**](https://vip.trackking.app/)
+14. _Dev Lead_ pushes changes to Sub Apps
+15. _Dev Lead_ confirms push in [**#production-pushes**](https://trackkingworkspace.slack.com/archives/C05M52E81ST) Slack channel
+16. _Team_ runs full QA cycle on [**Production**](https://vip.trackking.app/)
+17. If there are any defects or major issues are found during the Production QA testing, Production environment is reverted back to last Save Point and related tasks are updated with appropriate feedback, <Highlight>Business Approval checkbox</Highlight> is unchecked, and moved from <Highlight>Review/Approval</Highlight> to <Highlight>Development</Highlight>
+18. If team approves full QA cycle, related tasks are moved from <Highlight>Review/Approval</Highlight> to <Highlight>Done/Production</Highlight>
+

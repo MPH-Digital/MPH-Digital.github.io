@@ -36,10 +36,262 @@
               "sidebar": "busDocsSidebar"
             },
             {
+              "id": "design-docs/intro",
+              "title": "Design Documentation",
+              "description": "",
+              "source": "@site/docs/design-docs/intro.md",
+              "sourceDirName": "design-docs",
+              "slug": "/design-docs/intro",
+              "permalink": "/design-docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "designDocsSidebar"
+            },
+            {
+              "id": "team/intro",
+              "title": "Team Resources",
+              "description": "",
+              "source": "@site/docs/team/intro.md",
+              "sourceDirName": "team",
+              "slug": "/team/intro",
+              "permalink": "/team/intro",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "teamSidebar"
+            },
+            {
+              "id": "technical-docs/bubble/database",
+              "title": "Bubble Database",
+              "description": "",
+              "source": "@site/docs/technical-docs/bubble/database.mdx",
+              "sourceDirName": "technical-docs/bubble",
+              "slug": "/technical-docs/bubble/database",
+              "permalink": "/technical-docs/bubble/database",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "database"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "Bubble Workflows",
+                "permalink": "/technical-docs/bubble/workflows"
+              },
+              "next": {
+                "title": "Bubble 3rd Party Plugins",
+                "permalink": "/technical-docs/bubble/plugins/"
+              }
+            },
+            {
+              "id": "technical-docs/bubble/plugins/custom-plugins/mailgun",
+              "title": "Mailgun Plugin",
+              "description": "",
+              "source": "@site/docs/technical-docs/bubble/plugins/custom-plugins/mailgun.mdx",
+              "sourceDirName": "technical-docs/bubble/plugins/custom-plugins",
+              "slug": "/technical-docs/bubble/plugins/custom-plugins/mailgun",
+              "permalink": "/technical-docs/bubble/plugins/custom-plugins/mailgun",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "mailgun"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "Spotlight Carousel Plugin",
+                "permalink": "/technical-docs/bubble/plugins/custom-plugins/spotlight"
+              },
+              "next": {
+                "title": "Map King Mapbox Plugin",
+                "permalink": "/technical-docs/bubble/plugins/custom-plugins/map-king"
+              }
+            },
+            {
+              "id": "technical-docs/bubble/plugins/custom-plugins/map-king",
+              "title": "Map King Mapbox Plugin",
+              "description": "",
+              "source": "@site/docs/technical-docs/bubble/plugins/custom-plugins/map-king.mdx",
+              "sourceDirName": "technical-docs/bubble/plugins/custom-plugins",
+              "slug": "/technical-docs/bubble/plugins/custom-plugins/map-king",
+              "permalink": "/technical-docs/bubble/plugins/custom-plugins/map-king",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "id": "map-king"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "Mailgun Plugin",
+                "permalink": "/technical-docs/bubble/plugins/custom-plugins/mailgun"
+              },
+              "next": {
+                "title": "Bubble Security / Privacy",
+                "permalink": "/technical-docs/bubble/security"
+              }
+            },
+            {
+              "id": "technical-docs/bubble/plugins/custom-plugins/spotlight",
+              "title": "Spotlight Carousel Plugin",
+              "description": "",
+              "source": "@site/docs/technical-docs/bubble/plugins/custom-plugins/spotlight.mdx",
+              "sourceDirName": "technical-docs/bubble/plugins/custom-plugins",
+              "slug": "/technical-docs/bubble/plugins/custom-plugins/spotlight",
+              "permalink": "/technical-docs/bubble/plugins/custom-plugins/spotlight",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "spotlight"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "Bubble 3rd Party Plugins",
+                "permalink": "/technical-docs/bubble/plugins/"
+              },
+              "next": {
+                "title": "Mailgun Plugin",
+                "permalink": "/technical-docs/bubble/plugins/custom-plugins/mailgun"
+              }
+            },
+            {
+              "id": "technical-docs/bubble/plugins/plugins",
+              "title": "Bubble 3rd Party Plugins",
+              "description": "",
+              "source": "@site/docs/technical-docs/bubble/plugins/plugins.mdx",
+              "sourceDirName": "technical-docs/bubble/plugins",
+              "slug": "/technical-docs/bubble/plugins/",
+              "permalink": "/technical-docs/bubble/plugins/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "plugins"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "Bubble Database",
+                "permalink": "/technical-docs/bubble/database"
+              },
+              "next": {
+                "title": "Spotlight Carousel Plugin",
+                "permalink": "/technical-docs/bubble/plugins/custom-plugins/spotlight"
+              }
+            },
+            {
+              "id": "technical-docs/bubble/security",
+              "title": "Bubble Security / Privacy",
+              "description": "",
+              "source": "@site/docs/technical-docs/bubble/security.mdx",
+              "sourceDirName": "technical-docs/bubble",
+              "slug": "/technical-docs/bubble/security",
+              "permalink": "/technical-docs/bubble/security",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "id": "security"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "Map King Mapbox Plugin",
+                "permalink": "/technical-docs/bubble/plugins/custom-plugins/map-king"
+              },
+              "next": {
+                "title": "Mapbox Documentation",
+                "permalink": "/technical-docs/mapbox/mapbox-intro"
+              }
+            },
+            {
+              "id": "technical-docs/bubble/workflows",
+              "title": "Bubble Workflows",
+              "description": "",
+              "source": "@site/docs/technical-docs/bubble/workflows.mdx",
+              "sourceDirName": "technical-docs/bubble",
+              "slug": "/technical-docs/bubble/workflows",
+              "permalink": "/technical-docs/bubble/workflows",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "workflows"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "QA Process",
+                "permalink": "/technical-docs/process/qa-process"
+              },
+              "next": {
+                "title": "Bubble Database",
+                "permalink": "/technical-docs/bubble/database"
+              }
+            },
+            {
+              "id": "technical-docs/environments",
+              "title": "Environments",
+              "description": "Below are the current production and development environments:",
+              "source": "@site/docs/technical-docs/environments.mdx",
+              "sourceDirName": "technical-docs",
+              "slug": "/technical-docs/environments",
+              "permalink": "/technical-docs/environments",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "environments"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "Technical Documentation",
+                "permalink": "/technical-docs/intro"
+              },
+              "next": {
+                "title": "Bubble General Development Process",
+                "permalink": "/technical-docs/process/bubble-process"
+              }
+            },
+            {
               "id": "technical-docs/intro",
               "title": "Technical Documentation",
-              "description": "",
-              "source": "@site/docs/technical-docs/intro.md",
+              "description": "Tech Stack",
+              "source": "@site/docs/technical-docs/intro.mdx",
               "sourceDirName": "technical-docs",
               "slug": "/technical-docs/intro",
               "permalink": "/technical-docs/intro",
@@ -49,23 +301,431 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 1
+                "sidebar_position": 1,
+                "id": "intro"
               },
-              "sidebar": "techDocsSidebar"
+              "sidebar": "techDocsSidebar",
+              "next": {
+                "title": "Environments",
+                "permalink": "/technical-docs/environments"
+              }
+            },
+            {
+              "id": "technical-docs/mapbox/mapbox-intro",
+              "title": "Mapbox Documentation",
+              "description": "",
+              "source": "@site/docs/technical-docs/mapbox/intro.mdx",
+              "sourceDirName": "technical-docs/mapbox",
+              "slug": "/technical-docs/mapbox/mapbox-intro",
+              "permalink": "/technical-docs/mapbox/mapbox-intro",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "mapbox-intro"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "Bubble Security / Privacy",
+                "permalink": "/technical-docs/bubble/security"
+              },
+              "next": {
+                "title": "SMS",
+                "permalink": "/technical-docs/notifications/sms"
+              }
+            },
+            {
+              "id": "technical-docs/notifications/marketing-email",
+              "title": "Marketing Emails",
+              "description": "",
+              "source": "@site/docs/technical-docs/notifications/marketing-email.mdx",
+              "sourceDirName": "technical-docs/notifications",
+              "slug": "/technical-docs/notifications/marketing-email",
+              "permalink": "/technical-docs/notifications/marketing-email",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "id": "marketing-email"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "System Emails",
+                "permalink": "/technical-docs/notifications/system-email"
+              },
+              "next": {
+                "title": "Data / Reporting",
+                "permalink": "/technical-docs/reporting"
+              }
+            },
+            {
+              "id": "technical-docs/notifications/sms",
+              "title": "SMS",
+              "description": "",
+              "source": "@site/docs/technical-docs/notifications/sms.mdx",
+              "sourceDirName": "technical-docs/notifications",
+              "slug": "/technical-docs/notifications/sms",
+              "permalink": "/technical-docs/notifications/sms",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "sms"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "Mapbox Documentation",
+                "permalink": "/technical-docs/mapbox/mapbox-intro"
+              },
+              "next": {
+                "title": "WhatsApp",
+                "permalink": "/technical-docs/notifications/whatsapp"
+              }
+            },
+            {
+              "id": "technical-docs/notifications/system-email",
+              "title": "System Emails",
+              "description": "",
+              "source": "@site/docs/technical-docs/notifications/system-email.mdx",
+              "sourceDirName": "technical-docs/notifications",
+              "slug": "/technical-docs/notifications/system-email",
+              "permalink": "/technical-docs/notifications/system-email",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "id": "system-email"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "WhatsApp",
+                "permalink": "/technical-docs/notifications/whatsapp"
+              },
+              "next": {
+                "title": "Marketing Emails",
+                "permalink": "/technical-docs/notifications/marketing-email"
+              }
+            },
+            {
+              "id": "technical-docs/notifications/whatsapp",
+              "title": "WhatsApp",
+              "description": "",
+              "source": "@site/docs/technical-docs/notifications/whatsapp.mdx",
+              "sourceDirName": "technical-docs/notifications",
+              "slug": "/technical-docs/notifications/whatsapp",
+              "permalink": "/technical-docs/notifications/whatsapp",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "whatsapp"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "SMS",
+                "permalink": "/technical-docs/notifications/sms"
+              },
+              "next": {
+                "title": "System Emails",
+                "permalink": "/technical-docs/notifications/system-email"
+              }
+            },
+            {
+              "id": "technical-docs/process/bubble-process",
+              "title": "Bubble General Development Process",
+              "description": "1. All development is done on Main development branch",
+              "source": "@site/docs/technical-docs/process/bubble-process.mdx",
+              "sourceDirName": "technical-docs/process",
+              "slug": "/technical-docs/process/bubble-process",
+              "permalink": "/technical-docs/process/bubble-process",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "bubble-process"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "Environments",
+                "permalink": "/technical-docs/environments"
+              },
+              "next": {
+                "title": "Plugin Development Process",
+                "permalink": "/technical-docs/process/plugin-process"
+              }
+            },
+            {
+              "id": "technical-docs/process/plugin-process",
+              "title": "Plugin Development Process",
+              "description": "1. All development is done on cloned development plugin assigned to the Developer and attached to a bubble sandbox branch",
+              "source": "@site/docs/technical-docs/process/plugin-process.mdx",
+              "sourceDirName": "technical-docs/process",
+              "slug": "/technical-docs/process/plugin-process",
+              "permalink": "/technical-docs/process/plugin-process",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "plugin-process"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "Bubble General Development Process",
+                "permalink": "/technical-docs/process/bubble-process"
+              },
+              "next": {
+                "title": "QA Process",
+                "permalink": "/technical-docs/process/qa-process"
+              }
+            },
+            {
+              "id": "technical-docs/process/qa-process",
+              "title": "QA Process",
+              "description": "",
+              "source": "@site/docs/technical-docs/process/qa-process.mdx",
+              "sourceDirName": "technical-docs/process",
+              "slug": "/technical-docs/process/qa-process",
+              "permalink": "/technical-docs/process/qa-process",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "id": "qa-process"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "Plugin Development Process",
+                "permalink": "/technical-docs/process/plugin-process"
+              },
+              "next": {
+                "title": "Bubble Workflows",
+                "permalink": "/technical-docs/bubble/workflows"
+              }
+            },
+            {
+              "id": "technical-docs/reporting",
+              "title": "Data / Reporting",
+              "description": "",
+              "source": "@site/docs/technical-docs/reporting.mdx",
+              "sourceDirName": "technical-docs",
+              "slug": "/technical-docs/reporting",
+              "permalink": "/technical-docs/reporting",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6,
+                "id": "reporting"
+              },
+              "sidebar": "techDocsSidebar",
+              "previous": {
+                "title": "Marketing Emails",
+                "permalink": "/technical-docs/notifications/marketing-email"
+              }
             }
           ],
           "drafts": [],
           "sidebars": {
-            "techDocsSidebar": [
-              {
-                "type": "doc",
-                "id": "technical-docs/intro"
-              }
-            ],
             "busDocsSidebar": [
               {
                 "type": "doc",
                 "id": "business-docs/intro"
+              }
+            ],
+            "designDocsSidebar": [
+              {
+                "type": "doc",
+                "id": "design-docs/intro"
+              }
+            ],
+            "teamSidebar": [
+              {
+                "type": "doc",
+                "id": "team/intro"
+              }
+            ],
+            "techDocsSidebar": [
+              {
+                "type": "doc",
+                "id": "technical-docs/intro",
+                "label": "Development Documentation",
+                "translatable": true
+              },
+              {
+                "type": "doc",
+                "id": "technical-docs/environments",
+                "label": "Environments",
+                "translatable": true
+              },
+              {
+                "type": "category",
+                "label": "Process",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "technical-docs/process/bubble-process",
+                    "label": "Bubble Process",
+                    "translatable": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical-docs/process/plugin-process",
+                    "label": "Plugin Process",
+                    "translatable": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical-docs/process/qa-process",
+                    "label": "QA Process",
+                    "translatable": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Bubble.io",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "technical-docs/bubble/workflows",
+                    "label": "Workflows",
+                    "translatable": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical-docs/bubble/database",
+                    "label": "Database",
+                    "translatable": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Plugins",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "technical-docs/bubble/plugins/plugins",
+                        "label": "3rd Party Plugins",
+                        "translatable": true
+                      },
+                      {
+                        "type": "category",
+                        "label": "Custom Plugins",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "technical-docs/bubble/plugins/custom-plugins/spotlight",
+                            "label": "Spotlight Carousel",
+                            "translatable": true
+                          },
+                          {
+                            "type": "doc",
+                            "id": "technical-docs/bubble/plugins/custom-plugins/mailgun",
+                            "label": "Mailgun",
+                            "translatable": true
+                          },
+                          {
+                            "type": "doc",
+                            "id": "technical-docs/bubble/plugins/custom-plugins/map-king",
+                            "label": "Map King",
+                            "translatable": true
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical-docs/bubble/security",
+                    "label": "Security / Privacy",
+                    "translatable": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Mapbox",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "technical-docs/mapbox/mapbox-intro",
+                    "label": "Mapbox Docs",
+                    "translatable": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Notifications",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "technical-docs/notifications/sms",
+                    "label": "SMS",
+                    "translatable": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical-docs/notifications/whatsapp",
+                    "label": "WhatsApp",
+                    "translatable": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical-docs/notifications/system-email",
+                    "label": "System Email",
+                    "translatable": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical-docs/notifications/marketing-email",
+                    "label": "Marketing Email",
+                    "translatable": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "doc",
+                "id": "technical-docs/reporting",
+                "label": "Data / Reporting",
+                "translatable": true
               }
             ]
           }

@@ -16,6 +16,9 @@
   --ifm-color-primary-lightest: #e3c3ff;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-hero-background-color: #fff;
+  --ifm-hero-text-color: #1b1b1d;
 }
 
 .footer {
@@ -35,6 +38,12 @@
 
   --ifm-navbar-background-color: #242526;
   --ifm-footer-background-color: #242526;
+
+  --ifm-hero-background-color:#1b1b1d;
+}
+
+[data-theme='dark'] .heroBanner {
+  background-color: #868691;
 }
 
 .navbar__logo {

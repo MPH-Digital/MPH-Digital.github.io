@@ -47,19 +47,8 @@ const config = {
         docs: {
           sidebarPath: "./sidebars.js",
           routeBasePath: "/",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: false,
-        // blog: {
-        //showReadingTime: true,
-        // Please change this to your repo.
-        // Remove this to remove the "edit this page" links.
-        // editUrl:
-        //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        //},
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -72,6 +61,10 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: false,
+      },
       navbar: {
         style: "dark",
         //title: "mph.digital",
@@ -93,9 +86,16 @@ const config = {
             label: "Business Documentation",
           },
           {
-            href: "https://github.com/MPH-Digital",
-            label: "GitHub",
-            position: "right",
+            type: "docSidebar",
+            sidebarId: "designDocsSidebar",
+            position: "left",
+            label: "Design Documentation",
+          },
+          {
+            type: "docSidebar",
+            sidebarId: "teamSidebar",
+            position: "left",
+            label: "Team Resources",
           },
         ],
       },

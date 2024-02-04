@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/",
-          "mainDocId": "technical-docs/intro",
+          "mainDocId": "business-docs/intro",
           "docs": [
             {
               "id": "business-docs/intro",
@@ -16,23 +16,130 @@
               "sidebar": "busDocsSidebar"
             },
             {
+              "id": "design-docs/intro",
+              "path": "/design-docs/intro",
+              "sidebar": "designDocsSidebar"
+            },
+            {
+              "id": "team/intro",
+              "path": "/team/intro",
+              "sidebar": "teamSidebar"
+            },
+            {
+              "id": "technical-docs/bubble/database",
+              "path": "/technical-docs/bubble/database",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/bubble/plugins/custom-plugins/mailgun",
+              "path": "/technical-docs/bubble/plugins/custom-plugins/mailgun",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/bubble/plugins/custom-plugins/map-king",
+              "path": "/technical-docs/bubble/plugins/custom-plugins/map-king",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/bubble/plugins/custom-plugins/spotlight",
+              "path": "/technical-docs/bubble/plugins/custom-plugins/spotlight",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/bubble/plugins/plugins",
+              "path": "/technical-docs/bubble/plugins/",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/bubble/security",
+              "path": "/technical-docs/bubble/security",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/bubble/workflows",
+              "path": "/technical-docs/bubble/workflows",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/environments",
+              "path": "/technical-docs/environments",
+              "sidebar": "techDocsSidebar"
+            },
+            {
               "id": "technical-docs/intro",
               "path": "/technical-docs/intro",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/mapbox/mapbox-intro",
+              "path": "/technical-docs/mapbox/mapbox-intro",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/notifications/marketing-email",
+              "path": "/technical-docs/notifications/marketing-email",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/notifications/sms",
+              "path": "/technical-docs/notifications/sms",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/notifications/system-email",
+              "path": "/technical-docs/notifications/system-email",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/notifications/whatsapp",
+              "path": "/technical-docs/notifications/whatsapp",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/process/bubble-process",
+              "path": "/technical-docs/process/bubble-process",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/process/plugin-process",
+              "path": "/technical-docs/process/plugin-process",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/process/qa-process",
+              "path": "/technical-docs/process/qa-process",
+              "sidebar": "techDocsSidebar"
+            },
+            {
+              "id": "technical-docs/reporting",
+              "path": "/technical-docs/reporting",
               "sidebar": "techDocsSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "techDocsSidebar": {
-              "link": {
-                "path": "/technical-docs/intro",
-                "label": "technical-docs/intro"
-              }
-            },
             "busDocsSidebar": {
               "link": {
                 "path": "/business-docs/intro",
                 "label": "business-docs/intro"
+              }
+            },
+            "designDocsSidebar": {
+              "link": {
+                "path": "/design-docs/intro",
+                "label": "design-docs/intro"
+              }
+            },
+            "teamSidebar": {
+              "link": {
+                "path": "/team/intro",
+                "label": "team/intro"
+              }
+            },
+            "techDocsSidebar": {
+              "link": {
+                "path": "/technical-docs/intro",
+                "label": "Development Documentation"
               }
             }
           }

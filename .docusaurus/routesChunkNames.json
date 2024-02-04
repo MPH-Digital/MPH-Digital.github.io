@@ -1,30 +1,149 @@
 {
-  "/-ee2": {
-    "__comp": "c4f5d8e4",
+  "/__docusaurus/debug-2e3": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "d9f125fa"
-    },
-    "config": "5e9f5e1a"
-  },
-  "/-4ad": {
-    "__comp": "5e95c892",
-    "__context": {
-      "plugin": "c20c5f05"
+      "plugin": "plugin---docusaurus-debugbe-5-e99"
     }
   },
-  "/-e99": {
-    "__comp": "a7bd4aaa",
-    "version": "935f2afb"
+  "/__docusaurus/debug/config-bf2": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugbe-5-e99"
+    }
   },
-  "/-6ce": {
-    "__comp": "a94703ab"
+  "/__docusaurus/debug/content-8b6": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugbe-5-e99"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-79f": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugbe-5-e99"
+    }
+  },
+  "/__docusaurus/debug/metadata-33c": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugbe-5-e99"
+    }
+  },
+  "/__docusaurus/debug/registry-c47": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugbe-5-e99"
+    }
+  },
+  "/__docusaurus/debug/routes-e1d": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugbe-5-e99"
+    }
+  },
+  "/-ee2": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---d-9-f-768"
+    },
+    "config": "config---5-e-9-4f3"
+  },
+  "/-0a0": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---c-20-ea4"
+    }
+  },
+  "/-2f5": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---935-fcf"
+  },
+  "/-b39": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/business-docs/intro-62e": {
-    "__comp": "17896441",
-    "content": "958f66e8"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---business-docs-intro-958-d73"
   },
-  "/technical-docs/intro-1c6": {
-    "__comp": "17896441",
-    "content": "a24b53c9"
+  "/design-docs/intro-7a0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---design-docs-intro-84-d-61d"
+  },
+  "/team/intro-2ed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---team-introda-0-29e"
+  },
+  "/technical-docs/bubble/database-857": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-bubble-workflowsfdc-df2"
+  },
+  "/technical-docs/bubble/plugins-06b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-bubble-plugins-626-bfd"
+  },
+  "/technical-docs/bubble/plugins/custom-plugins/mailgun-b17": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-bubble-plugins-custom-plugins-spotlightb-00-78b"
+  },
+  "/technical-docs/bubble/plugins/custom-plugins/map-king-cf4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-bubble-plugins-custom-plugins-mailgun-65-a-5da"
+  },
+  "/technical-docs/bubble/plugins/custom-plugins/spotlight-7ee": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-bubble-plugins-custom-plugins-spotlightaa-9-b3b"
+  },
+  "/technical-docs/bubble/security-9cf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-bubble-plugins-18-a-1df"
+  },
+  "/technical-docs/bubble/workflows-8d1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-bubble-plugin-process-5-c-6-781"
+  },
+  "/technical-docs/environments-819": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-environmentse-5-b-af2"
+  },
+  "/technical-docs/intro-71f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-intro-930-509"
+  },
+  "/technical-docs/mapbox/mapbox-intro-dbe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-mapbox-plugin-processe-11-26e"
+  },
+  "/technical-docs/notifications/marketing-email-6d2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-notifications-system-emailde-4-060"
+  },
+  "/technical-docs/notifications/sms-80c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-notifications-mapbox-intro-240-906"
+  },
+  "/technical-docs/notifications/system-email-b80": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-notifications-system-email-6-e-9-fa4"
+  },
+  "/technical-docs/notifications/whatsapp-dac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-notifications-sms-362-e96"
+  },
+  "/technical-docs/process/bubble-process-df3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-process-bubble-process-1-c-7-076"
+  },
+  "/technical-docs/process/plugin-process-d7f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-process-plugin-process-247-3d1"
+  },
+  "/technical-docs/process/qa-process-8e0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-process-plugin-process-0-b-3-332"
+  },
+  "/technical-docs/reporting-004": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---technical-docs-reporting-34-d-ff7"
   }
 }
